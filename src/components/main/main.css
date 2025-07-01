@@ -1,0 +1,9 @@
+.main-controls{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.main-controls-active{
+    color: var(--orange);
+}

@@ -30,7 +30,7 @@ export const Header = () => {
             </ul>
         </div>
         <ul>
-            <li>
+            <li className='try-live'>
                 Try Live for free
             </li>
             <li>

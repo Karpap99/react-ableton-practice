@@ -1,0 +1,12 @@
+.block-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.block-one h2{
+    position: absolute;
+    color: var(--orange);
+    font-size: 48px;
+}

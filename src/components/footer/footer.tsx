@@ -1,8 +1,11 @@
+import './footer.css'
+
 export const Footer = () => {
     return(
         <footer>
-            <h2>Ableton</h2>
-            <div>
+            <div className='footer-wrapper'>
+                <h2>Ableton</h2>
+            <div className='footer-grid'>
                 <div>
                     <ul>
                         <li>
@@ -15,11 +18,11 @@ export const Footer = () => {
                             Jobs
                         </li>
                         <li>
-                            <div>
-                                <img alt='facebook'></img>
-                                <img alt='tweeter'></img>
-                                <img alt='youtube'></img>
-                                <img alt="instagram"></img>
+                            <div className='footer-logos'>
+                                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/960px-Facebook_logo_%28square%29.png' alt='facebook'></img>
+                                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/960px-Facebook_logo_%28square%29.png' alt='tweeter'></img>
+                                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/960px-Facebook_logo_%28square%29.png' alt='youtube'></img>
+                                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/960px-Facebook_logo_%28square%29.png' alt="instagram"></img>
                             </div>
                         </li>
                     </ul>
@@ -37,10 +40,10 @@ export const Footer = () => {
                 </div>
                 <div>
                     <h3>Sign up to our newsletter</h3>
-                    <p>Enter your email address to stay up to date with latest offers, tutorials, downloads and more</p>
-                    <div>
-                        <input type="text"/>
-                        <div>
+                    <p>Enter your email address to stay up to date with<br/> latest offers, tutorials, downloads and more</p>
+                    <div className='footer-email'>
+                        <input type="text" placeholder='Email Address'/>
+                        <div className='footer-signup'>
                             Sign up
                         </div>
                     </div>
@@ -55,6 +58,47 @@ export const Footer = () => {
                         <li>Become a Certified Trainer</li>
                     </ul>
                 </div>
+                <div>
+                    <h3>
+                        Distributors
+                    </h3>
+                    <ul>
+                        <li>Find Distributors</li>
+                        <li>Try Push in-store</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>
+                        Language and Location
+                    </h3>
+                    <div>
+                        <select>
+                            <option >
+                                English
+                            </option>
+                        </select>
+                        <select>
+                            <option >
+                                United States
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div className='footer-bottom'>
+                <ul>
+                    <li>Archieve</li>
+                    <li>Contact Us</li>
+                    <li>Press Resources</li>
+                    <li>Legal Info</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookie Settings</li>
+                    <li>Imprint</li>
+                </ul>
+                <div>
+                    Made in Berlin
+                </div>
+            </div>
             </div>
         </footer>
     )
