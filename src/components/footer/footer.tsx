@@ -45,9 +45,9 @@ export const Footer = () => {
                     <p>Enter your email address to stay up to date with<br/> latest offers, tutorials, downloads and more</p>
                     <div className='footer-email'>
                         <input type="text" placeholder='Email Address'/>
-                        <div className='footer-signup'>
+                        <button className='footer-signup'>
                             Sign up
-                        </div>
+                        </button>
                     </div>
                 </div>
                 <div>

@@ -51,7 +51,7 @@ footer ul{
 
 
 footer input{
-    width: 450px;
+    width: 70%;
     height: 25px;
     background-color: rgb(243, 243, 243);
     border: 0px;
@@ -69,7 +69,10 @@ footer input::placeholder{
     cursor: pointer;
     color: white;
     background-color: var(--blue);
-    padding: 5px 15px;
+    height: 35px;
+    width: 70px;
+    border: 0;
+    
 }
 
 
@@ -113,4 +116,5 @@ footer select{
 
 .footer-bottom-right{
     display: flex;
+    gap: 20px;
 }

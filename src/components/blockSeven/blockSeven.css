@@ -6,7 +6,13 @@
     padding: 50px 0;
 }
 
+.block-seven-img1, .block-seven-img2{
+    width: 80%;
+}
 
+.block-seven-img3{
+    width: 50%;
+}
 
 .block-seven-background{
     background-color: var(--green);

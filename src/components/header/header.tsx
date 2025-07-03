@@ -7,29 +7,31 @@ export const Header = () => {
     <header>
         <div>
             <img src={AbletonLogo} alt='Ableton logo'/>
-            <ul>
-                <li>
-                    Live
-                </li>
-                <li>
-                    Push
-                </li>
-                <li>
-                    Link
-                </li>
-                <li>
-                    Shop
-                </li>
-                <li>
-                    Packs
-                </li>
-                <li>
-                    Help
-                </li>
-                <li>
-                    More +
-                </li>
-            </ul>
+            <nav>
+                <ul>
+                    <li>
+                        Live
+                    </li>
+                    <li>
+                        Push
+                    </li>
+                    <li>
+                        Link
+                    </li>
+                    <li>
+                        Shop
+                    </li>
+                    <li>
+                        Packs
+                    </li>
+                    <li>
+                        Help
+                    </li>
+                    <li style={{color: "var(--orange)"}}>
+                        More +
+                    </li>
+                </ul>
+            </nav>
         </div>
         <ul>
             <li className='try-live'>

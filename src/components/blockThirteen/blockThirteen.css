@@ -1,0 +1,41 @@
+.block-thirteen {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 40px auto;
+  overflow: hidden;
+
+}
+
+.block-thirteen-img {
+  width: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.block-thirteen-text {
+  width: 25%;
+  background-color: #aec4ff; /* светло-голубой фон */
+  color: #000;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+.block-thirteen-text p {
+  margin: 0 0 20px 0;
+}
+
+.block-thirteen-link {
+  color: #3443ff; /* синий цвет ссылки */
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.block-thirteen-link:hover {
+  text-decoration: underline;
+}

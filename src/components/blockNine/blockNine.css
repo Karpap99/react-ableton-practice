@@ -1,0 +1,13 @@
+.block-nine{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.block-nine-img1{
+    width: 80%;
+}
+
+
+
