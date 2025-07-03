@@ -94,5 +94,9 @@ footer select{
     border: none;
     outline: none;
     appearance: none;
-    
+
+}
+
+.footer-bottom-right{
+    display: flex;
 }

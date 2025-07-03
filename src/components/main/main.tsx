@@ -1,4 +1,7 @@
+import { BlockFive } from '../blockFive/blockFive'
+import { BlockFour } from '../blockFour/blockFour'
 import { BlockOne } from '../blockOne/blockOne'
+import { BlockThree } from '../blockThree/blockThree'
 import { BlockTwo } from '../blockTwo/blockTwo'
 import './main.css'
 
@@ -11,6 +14,9 @@ export const Main = () => {
         </ul>
         <BlockOne/>
         <BlockTwo/>
+        <BlockThree/>
+        <BlockFour/>
+        <BlockFive/>
 
 
     </main>

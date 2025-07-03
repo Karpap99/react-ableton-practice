@@ -8,5 +8,7 @@
 .block-one h2{
     position: absolute;
     color: var(--orange);
-    font-size: 48px;
+    font-size: 64px;
 }
+
+

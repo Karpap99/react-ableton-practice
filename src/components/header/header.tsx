@@ -1,3 +1,4 @@
+import { AbletonLogo } from '../abletonLogo/abletonLogo'
 import './header.css'
 
 
@@ -5,6 +6,7 @@ export const Header = () => {
     return(
     <header>
         <div>
+            <AbletonLogo/>
             <ul>
                 <li>
                     Live

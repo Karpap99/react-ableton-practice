@@ -1,3 +1,4 @@
+import { AbletonLogo } from '../abletonLogo/abletonLogo'
 import './footer.css'
 
 export const Footer = () => {
@@ -95,8 +96,10 @@ export const Footer = () => {
                     <li>Cookie Settings</li>
                     <li>Imprint</li>
                 </ul>
-                <div>
-                    Made in Berlin
+                <div className='footer-bottom-right'>
+                    <div>
+                        Made in Berlin              
+                    </div>
                 </div>
             </div>
             </div>

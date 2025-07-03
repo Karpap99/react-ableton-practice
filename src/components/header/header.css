@@ -24,3 +24,9 @@ header ul li{
 .try-live:hover{
     color: var(--purple1);
 }
+
+header div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
