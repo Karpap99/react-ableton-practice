@@ -1,4 +1,4 @@
-import { AbletonLogo } from '../abletonLogo/abletonLogo'
+import AbletonLogo from '../../assets/images/ableton-hallmark.ef5355379032.svg'
 import './header.css'
 
 
@@ -6,7 +6,7 @@ export const Header = () => {
     return(
     <header>
         <div>
-            <AbletonLogo/>
+            <img src={AbletonLogo} alt='Ableton logo'/>
             <ul>
                 <li>
                     Live

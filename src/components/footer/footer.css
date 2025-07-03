@@ -11,12 +11,21 @@ footer ul{
 }
 
 
+
 .footer-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows:repeat(2, 1fr);
     gap: 20px;
 }
+
+
+@media (max-width: 425px) {
+    .footer-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
 
 .footer-grid h3, .footer-grid ul, .footer-grid p{
     margin: 0;
@@ -93,7 +102,12 @@ footer select{
     width: 150px;
     border: none;
     outline: none;
-    appearance: none;
+     appearance: none;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/60/60995.png'); /* иконка стрелки вниз */
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  padding-right: 30px; /* чтобы текст не налазил на стрелку */
 
 }
 

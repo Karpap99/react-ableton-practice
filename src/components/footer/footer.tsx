@@ -1,4 +1,5 @@
-import { AbletonLogo } from '../abletonLogo/abletonLogo'
+
+import AbletonLogo from '../../assets/images/ableton-hallmark.ef5355379032.svg'
 import './footer.css'
 
 export const Footer = () => {
@@ -97,9 +98,8 @@ export const Footer = () => {
                     <li>Imprint</li>
                 </ul>
                 <div className='footer-bottom-right'>
-                    <div>
-                        Made in Berlin              
-                    </div>
+                    <div>Made in Berlin</div>
+                    <img src={AbletonLogo} alt=''/>
                 </div>
             </div>
             </div>

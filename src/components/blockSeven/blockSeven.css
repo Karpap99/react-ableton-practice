@@ -1,0 +1,26 @@
+.block-seven{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    padding: 50px 0;
+}
+
+
+
+.block-seven-background{
+    background-color: var(--green);
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    z-index: -1;
+    left: 0;
+}
+
+.block-seven-left{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
