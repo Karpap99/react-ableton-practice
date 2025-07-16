@@ -38,3 +38,24 @@
     border-bottom: 20px solid transparent;
     border-top: 20px solid transparent;
 }
+
+@media (max-width: 600px) {
+  .block-five {
+    width: 100% !important;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 8px;
+  }
+  .block-five-video {
+    width: 100% !important;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .block-five-video img {
+    width: 100% !important;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}

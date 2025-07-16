@@ -17,6 +17,11 @@ header ul li{
     cursor: pointer;
 }
 
+header ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .try-live{
     color: var(--blue);
 }
@@ -29,4 +34,112 @@ header div{
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+.burger-bar {
+    width: 28px;
+    height: 3px;
+    background: #222;
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.desktop-nav-buttons {
+    display: flex;
+}
+.mobile-nav-buttons {
+    display: none;
+}
+@media (max-width: 800px) {
+    header ul, header nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 70vw;
+        max-width: 300px;
+        background: #fff;
+        box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+        transform: translateX(-100%);
+        transition: transform 0.3s;
+        z-index: 9;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 60px;
+    }
+    header nav.open {
+        transform: translateX(0);
+    }
+    .burger {
+        display: flex;
+    }
+    header > div > nav {
+        margin-left: 0;
+    }
+    header > div > nav ul {
+        width: 100%;
+    }
+    header > div > nav ul li {
+        width: 100%;
+        padding: 10px 0;
+        text-align: left;
+    }
+    header > div > nav ul li a {
+        width: 100%;
+        display: block;
+    }
+    header > div {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .desktop-nav-buttons {
+        display: none;
+    }
+    .mobile-nav-buttons {
+        display: contents;
+    }
+    header nav.open ul {
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+    header nav.open ul li {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        margin-left: 0;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        border-left: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.burger-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.3);
+    z-index: 8;
 }

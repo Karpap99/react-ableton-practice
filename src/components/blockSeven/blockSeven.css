@@ -29,4 +29,24 @@
     gap: 100px;
 }
 
+@media (max-width: 600px) {
+  .block-seven {
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 20px 0 !important;
+  }
+  .block-seven-img1,
+  .block-seven-img2,
+  .block-seven-img3 {
+    width: 100% !important;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .block-seven-left {
+    gap: 20px;
+  }
+}
+
 

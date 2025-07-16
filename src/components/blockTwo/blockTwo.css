@@ -21,6 +21,14 @@
     
 }
 
+@media (max-width: 600px) {
+    .block-two {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+}
 
 
 .block-two h3{ 
