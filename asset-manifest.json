@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-ableton-practice/static/css/main.b3d25a53.css",
-    "main.js": "/react-ableton-practice/static/js/main.2219c50f.js",
-    "static/js/453.611b4f90.chunk.js": "/react-ableton-practice/static/js/453.611b4f90.chunk.js",
-    "index.html": "/react-ableton-practice/index.html",
-    "static/media/ableton-hallmark.ef5355379032.svg": "/react-ableton-practice/static/media/ableton-hallmark.ef5355379032.6b821fbf2398542224861805fa8cf5cb.svg",
-    "main.b3d25a53.css.map": "/react-ableton-practice/static/css/main.b3d25a53.css.map",
-    "main.2219c50f.js.map": "/react-ableton-practice/static/js/main.2219c50f.js.map",
-    "453.611b4f90.chunk.js.map": "/react-ableton-practice/static/js/453.611b4f90.chunk.js.map"
+    "main.css": "/static/css/main.b3d25a53.css",
+    "main.js": "/static/js/main.e37f9088.js",
+    "static/js/453.611b4f90.chunk.js": "/static/js/453.611b4f90.chunk.js",
+    "static/media/ableton-hallmark.ef5355379032.svg": "/static/media/ableton-hallmark.ef5355379032.6b821fbf2398542224861805fa8cf5cb.svg",
+    "index.html": "/index.html",
+    "main.b3d25a53.css.map": "/static/css/main.b3d25a53.css.map",
+    "main.e37f9088.js.map": "/static/js/main.e37f9088.js.map",
+    "453.611b4f90.chunk.js.map": "/static/js/453.611b4f90.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3d25a53.css",
-    "static/js/main.2219c50f.js"
+    "static/js/main.e37f9088.js"
   ]
 }
