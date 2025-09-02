@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-ableton-practice/static/css/main.b3d25a53.css",
-    "main.js": "/react-ableton-practice/static/js/main.ad8271af.js",
+    "main.css": "/react-ableton-practice/static/css/main.f8781e02.css",
+    "main.js": "/react-ableton-practice/static/js/main.59328284.js",
     "static/js/453.611b4f90.chunk.js": "/react-ableton-practice/static/js/453.611b4f90.chunk.js",
     "index.html": "/react-ableton-practice/index.html",
     "static/media/ableton-hallmark.ef5355379032.svg": "/react-ableton-practice/static/media/ableton-hallmark.ef5355379032.6b821fbf2398542224861805fa8cf5cb.svg",
-    "main.b3d25a53.css.map": "/react-ableton-practice/static/css/main.b3d25a53.css.map",
-    "main.ad8271af.js.map": "/react-ableton-practice/static/js/main.ad8271af.js.map",
+    "main.f8781e02.css.map": "/react-ableton-practice/static/css/main.f8781e02.css.map",
+    "main.59328284.js.map": "/react-ableton-practice/static/js/main.59328284.js.map",
     "453.611b4f90.chunk.js.map": "/react-ableton-practice/static/js/453.611b4f90.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3d25a53.css",
-    "static/js/main.ad8271af.js"
+    "static/css/main.f8781e02.css",
+    "static/js/main.59328284.js"
   ]
 }
